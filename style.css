@@ -10,19 +10,60 @@ body{
 
 p{
   text-align: center;
+  color: #777;
 }
 
-/*-------Text properties for topbox in article -------*/
+/*-------Text properties-------*/
+.headertxt{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 85px;
+
+}
+
+.navtxt{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+
+}
+
+.sectxt{
+  text-align: center;
+  vertical-align: middle;
+}
+
 .boxtext {
   text-align: center;
-  color: #darkgrey;
+  vertical-align: middle;
+  font-weight: bold;
+  line-height: 40px;
 }
+
+.ptxt{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.footertxt{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.articletxt{
+  text-align: center;
+  color: lightgrey;
+}
+
+
 
 /*-------Header-------*/
 .header1{
   background-color: lightgrey;
   margin-bottom: 20px;
   height:85px;
+  width:100%;
   margin-top: 12px;
 }
 
@@ -91,11 +132,9 @@ float:left;
 
   /*-------Footer Properties-------*/
 .footer{
-  position: fixed;
-  right: 0;
-  bottom: 130px;
-  left: 0;
-  background-color: lightgrey;
-  text-align: center;
-}
+  position:absolute;
+   bottom:120px;
+   width:100%;
+   height:80px;
+   background: lightgrey;
 }
