@@ -1,0 +1,101 @@
+body{
+  tex
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica sans-serif;
+  color:  #darkgrey;
+  background-color: #777;
+  font-size: 18px;
+}
+
+p{
+  text-align: center;
+}
+
+/*-------Text properties for topbox in article -------*/
+.boxtext {
+  text-align: center;
+  color: #darkgrey;
+}
+
+/*-------Header-------*/
+.header1{
+  background-color: lightgrey;
+  margin-bottom: 20px;
+  height:85px;
+  margin-top: 12px;
+}
+
+.navbar{
+  height: 50px;
+  margin: auto;
+  background-color: lightgrey;
+  margin-top: 0px;
+}
+
+/*-------Section1-------*/
+.section1{
+width: 495px;
+height: 250px;
+background-color: lightgrey;
+margin: 20px auto 20px auto;
+float:left;
+}
+
+/*-------aside properties-------*/
+.aside1{
+  width: 495px;
+  position: fixed;
+  background-color: lightgrey;
+  margin: auto;
+  height: 250px;
+  margin: 20px auto 20px 765px;
+  float: right;
+
+  }
+
+/*-------Article box in Section -------*/
+
+.article2b{
+  width: 460px;
+  background-color: #777;
+  margin: auto;
+  height: 165px;
+  position: absolute;
+  margin: 20px 40px 40px 15px;
+
+  }
+
+  /*------- 1st box within Section1 - Article)-------*/
+  .h1box{
+    width: 400px;
+    background-color: lightgrey;
+    margin: auto;
+    height: 40px;
+    position: relative;
+    margin: 0px 0px 0px 30px;
+
+    }
+
+  /*-------2nd box within Section1 - Article) -------*/
+
+  .pbox{
+    width: 400px;
+    background-color: lightgrey;
+    margin: auto;
+    height: 40px;
+    position: relative;
+    margin: 0px 0px 0px 30px;
+
+    }
+
+  /*-------Footer Properties-------*/
+.footer{
+  position: fixed;
+  right: 0;
+  bottom: 130px;
+  left: 0;
+  background-color: lightgrey;
+  text-align: center;
+}
+}
